@@ -1,5 +1,6 @@
 body{
   background-color: rgb(43, 76, 218);
+  padding: 5%;
 }
 
 .titulo {
@@ -7,5 +8,9 @@ body{
 }
 
 .boton {
+
+}
+
+.alternativas{
 
 }
