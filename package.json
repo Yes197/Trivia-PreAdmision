@@ -1,0 +1,25 @@
+{
+  "name": "(reto-trivia)",
+  "version": "1.0.0",
+  "description": "laboratoria trivia",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yes197/Trivia-PreAdmision.git"
+  },
+  "keywords": [
+    "trivia"
+  ],
+  "author": "Yesica C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yes197/Trivia-PreAdmision/issues"
+  },
+  "homepage": "https://github.com/Yes197/Trivia-PreAdmision#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}

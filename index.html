@@ -3,42 +3,66 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Trivia</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Trivia Pre-Admisión</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
-    <p class="titulo">Bienvenid@ ¿Cuál es tu nombre?</p>
-    <input type="text" id="nombre"> <br> <br>
+    <form>
+        <h1 class="titulo">Bienvenid@ ¿Cuál es tu nombre?</h1>
+        <div><input type="text" id="name-user" placeholder="Me llamo..." required /></div>
+    </form>
 
-    <button type="submit" id="botonIngresar" onclick="Welcome()">Ingresar</button>
+    <!--<input type="button">, <input type="submit">, <input type="image">).-->
+    <button type="submit" id="btnIngresar" onclick="GuardarNombre()">Ingresar</button>
 
+    <form>
+        <h1 class="titulo">Hola + nombreUsuario + ! Esta es la trivia para pre-admisión a Laboratoria! </h1>
+        <p>A continuación, elige un tema para empezar.</p>
+
+        <label for=""></label>
+        <button type="submit" id="botonJs"> <a href="PreguntasJs.html"> Elijo Javascript!</a></button>
+
+        <button type="submit" id="botonJs"> <a href="PreguntasCss.html"> Voy por CSS!</a></button>
+
+    </form>
+
+    <form>
+        <h3 class="pregunta" id="pregunta1-js">¿Cuál es la forma correcta de conectar tu archivo javascript con el
+            archivo HTML?</h3>
+        <div>
+            <label>
+                <input type="radio" name="pregunta1-respuesta2-js" value="incorrecta"> Primera opción
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" name="pregunta1-respuesta2-js" value="correcta"> Segunda opción
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" name="pregunta1-respuesta3-js" value="incorrecta"> Tercera opción
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" name="pregunta1-respuesta4-js" value="incorrecta"> Cuarta opción
+            </label>
+        </div>
+
+
+        <!--onfocus: evento que se produce cuando el usuario selecciona un elemento del formulario.-->
+    </form>
+
+    <h3 class="pregunta">¿Para qué sirve el evento onchange?</h3>
+<!--También se produce cuando el usuario selecciona una opción en una lista desplegable (<select>).-->
     <h3 class="pregunta">¿Cuál es la forma correcta de conectar tu archivo javascript en el HTML?</h3>
     <div id="lista-JS">
         <!-- <option class="alternativas">"<script src="nombre-del-documento.js"></script>"</option> -->
-    </div>
-
-    <h3 class="pregunta">¿Qué procedimiento en javascript debes seguir para crear un botón?</h3>
-    <div id="lista-JS">
-
-    </div>
-
-    <h3 class="pregunta">¿?</h3>
-    <div id="lista-JS">
-    </div>
-
-    <h3 class="pregunta">¿Cuál es la forma correcta de conectar tu archivo javascript en el HTML?</h3>
-    <div id="lista-JS">
-        <!-- <option class="alternativas">"<script src="nombre-del-documento.js"></script>"</option> -->
-    </div>
-
-    <h3 class="pregunta">¿Qué procedimiento en javascript debes seguir para crear un botón?</h3>
-    <div id="lista-JS">
-
-    </div>
-
-    <h3 class="pregunta">¿?</h3>
-    <div id="lista-JS">
     </div>
 
     <script type="text/javascript" src="app.js"></script>

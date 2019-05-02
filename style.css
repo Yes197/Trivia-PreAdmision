@@ -1,17 +1,30 @@
 body{
-    background-color: #326be5;
+    background-color: #108bf049;
     padding: 5%;
-    
 }
 
 .titulo {
-
+    text-align: center;
+    font-family: Cambria, serif;
+    font-size: 75px;
 }
 
-.boton {
-
+#btnIngresar{
+    background-color: #2522bdbb;
+    width: 250px;
+    font-size: 50px;
+    color: #fff;
+    border: 5px solid #eceae3;
+    border-radius: 20px;
+    margin: 10px 900px 10px 0px;
+    padding: 10px 10px;
+    margin-left: 40%;
 }
 
-.alternativas{
-
+form label{
+    text-align: justify;
+    font-family: Cambria;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-left: 40%;
 }

@@ -1,7 +1,7 @@
 document.getElementById('botonIngresar');
-const nombreUsuario = document.getElementById('nombre');
+const nombreUsuario = document.getElementById('name-user');
 
-function Welcome() {
+function GuardarNombre() {
     const nombre = nombreUsuario.value;
     console.log(nombre);
 }
