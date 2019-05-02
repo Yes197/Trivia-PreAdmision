@@ -1,8 +1,8 @@
-const botonIngresar = document.getElementById('botonIngresar');
-const nombreUsuario = document.getElementById('name');
+document.getElementById('botonIngresar');
+const nombreUsuario = document.getElementById('nombre');
 
 function Welcome() {
-    nombre = nombreUsuario.value;
+    const nombre = nombreUsuario.value;
     console.log(nombre);
 }
 
