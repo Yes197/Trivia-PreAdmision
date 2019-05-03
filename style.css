@@ -1,30 +1,143 @@
 body{
-    background-color: #108bf049;
-    padding: 5%;
+    background-color: #f0f4f749;
 }
 
-.titulo {
+#titulo {
     text-align: center;
     font-family: Cambria, serif;
-    font-size: 75px;
+    font-size: 67px;
+    margin-top: 3%;
 }
 
-#btnIngresar{
+#numQuest {
+    text-align: center;
+    font-family: Cambria, serif;
+    font-size: 30px;
+    margin-top: -5%;
+}
+
+#name-user {
+    font-size: 45px;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 16%;
+}
+
+#cabecera {
+    border-radius: 10px;
+    background-color: rgb(252, 251, 213);
+    border: 3px solid black;
+    height: 600px;
+    width: 920px;
+    margin-top: 2%;
+    margin-left: 16%;
+}
+
+#btnIngresar {
     background-color: #2522bdbb;
     width: 250px;
-    font-size: 50px;
+    font-size: 45px;
     color: #fff;
     border: 5px solid #eceae3;
     border-radius: 20px;
-    margin: 10px 900px 10px 0px;
     padding: 10px 10px;
+    margin-left: 34%;
+    text-align: center;
+    margin-top: 9%;
+}
+
+#btnJavascript {
+    background-color: #2522bdbb;
+    width: 250px;
+    font-size: 42px;
+    color: #fff;
+    border: 5px solid #eceae3;
+    border-radius: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: -10%;
     margin-left: 40%;
 }
 
-form label{
+#btnCss {
+    background-color: #2522bdbb;
+    width: 250px;
+    font-size: 42px;
+    color: #fff;
+    border: 5px solid #eceae3;
+    border-radius: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: -10%;
+    margin-left: -40%;
+}
+
+#preg-formulario {
     text-align: justify;
     font-family: Cambria;
-    font-size: 25px;
+    font-size: 28px;
     border-radius: 50px;
-    margin-left: 40%;
+    margin-left: 4%;
+    width: 850px;
+}
+
+#time001 {
+    text-align: center;
+    font-family: Cambria;
+    font-size: 35px;
+}
+
+#tempQuest {
+    height: 45px;
+    margin-top: -3%;
+    margin-left: 47%;
+}
+
+.btn1{
+    font-family: Cambria;
+    font-size: 28px;
+    margin-left: 4%;
+    margin-top: 1%;
+    background-color: #2522bdbb;
+    width: 850px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.btn1:hover {
+    background-color: #888;
+}
+
+.btn1 p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(214, 214, 238);
+    line-height: 1.6em
+}
+
+.btn2 {
+    background-color: #2522bdbb;
+    width: 250px;
+    font-size: 45px;
+    color: #fff;
+    border: 5px solid #eceae3;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-left: 34%;
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+#btnResult{
+    margin-top: -4%;
+}
+
+#time1{
+    text-align: center;
+    margin-left: 47%;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
